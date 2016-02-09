@@ -1,14 +1,3 @@
-##Purpose
-
-to implement, test and deploy a guess a HSV color picker Android app
-
-##Work Assignment
-
-Please complete this assignment individually.
-
-If you need help, that's OK! Just ask... I'm here-to-help!
-
-Remember: share ideas, not code (!).
 
 ##The Assignment
 
