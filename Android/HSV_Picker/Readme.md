@@ -33,64 +33,6 @@ Display a Toast (short) message: H: <hue>° S: <saturation>% V: <value>%. For ex
 ####About Dialog
 Provide an information icon to the app's Action Bar. When clicked, display a dialog (i.e. AlertDialog) that displays your full name (first & last) and username. For example: Gerry Hurdle (hurdleg). Dismiss the dialog when the OK button is clicked.
 
-##Android Project Requirements
-
-See: NEW: How to Create a Blank Activity in Android Studio 1.4
-
-Launch Android Studio, close all projects, and Start a new Android Studio project:
-
-Application name: HSV Color Picker
-Company Domain: yourAlgonquinUsername.algonquincollege.com
-{Next}
-Check: Phone and Tablet
-Minimum SDK: API 23: Android 6.0 (Marshmallow)
-{Next}
-Blank Activity
-{Next}
-{FINISH: accept default values for MainActivity etc.}
-
-##Domain Range for HSV Values
-
-Here are the domain ranges --- the list of legal values --- for each HSV value:
-
-####Hue
-The hue's domain range is: 0 to 359 degrees (inclusive)
-####Saturation
-The saturation's domain range is: 0 to 100% (inclusive)
-####Value / Lightness
-The value's domain range is: 0 to 100% (inclusive)
-
-##Visual Requirements
-
- My app has the following component tree of <View> objects:
-
-RelativeLayout
-colorSwatch <TextView>
-hue <TextView>
-hueSB <SeekBar>
-saturation <TextView>
-saturationSB <SeekBar>
-value <TextView>
-valueSB <SeekBar>
-horizontalScrollView
-buttonGroup1 <LinearLayout>
-blackButton <Button>
-redButton
-limeButton
-blueButton
-yellowButton
-cyanButton
-magentaButton
-silverButton
-grayButton
-maroonButton
-oliveButton
-greenButton
-purpleButton
-tealButton
-navyButton
- Important note: your UI should look very, very similar to mine. Notice I did not say identical.
-
 ##Other Requirements
 
 Custom Launch Icon
